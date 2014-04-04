@@ -1,0 +1,31 @@
+body {
+  min-height: 100vh;
+  background-color: #008000;
+  margin: 0;
+}
+.wrapper {
+  background-color: #00f;
+}
+.primary {
+  float: left;
+  width: 80%;
+  background-color: #ff0;
+  min-height: 100px;
+}
+.primary img {
+  height: 100px;
+  width: 100px;
+}
+.secondary {
+  float: right;
+  width: 20%;
+  background-color: #f00;
+  min-height: 200px;
+}
+.secondary img {
+  height: 500px;
+  width: 100px;
+}
+.clearfix {
+  clear: both;
+}
